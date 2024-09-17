@@ -1,3 +1,5 @@
+[For English version click here](README.md)
+
 # GitLab Merge Request Automation Script
 
 Bu script, GitLab projelerinde kaynak (`source`) ve hedef (`target`) branch'leri arasında otomatik olarak bir merge request açmanızı sağlar. Script, Windows CMD üzerinden çalıştırılabilir ve kullanımı oldukça basittir.
