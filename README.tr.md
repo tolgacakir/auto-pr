@@ -26,7 +26,7 @@ set access_token=your_access_token
 ### 2. Project ID Bul
 GitLab'daki projenizin ID'sini öğrenmek için proje ana sayfasına gidin. Projenin **Settings** -> **General** sayfasında Project ID numarasını bulabilirsiniz.
 
-Bu ID'yi scriptteki project_id değişkenine ekleyin:
+Bu ID'yi scriptteki `project_id` değişkenine ekleyin:
 ```
 set project_id=glpat_your_project_id
 ```
@@ -41,8 +41,8 @@ Aşağıdaki komutla scripti çalıştırabilirsiniz:
 mr.bat -s your-source-branch -t your-target-branch
 ```
 
-- s: Kaynak branch ismini belirleyin (source branch).
-- t: Hedef branch ismini belirleyin (target branch).
+- `-s`: Kaynak branch ismini belirleyin (source branch).
+- `-t`: Hedef branch ismini belirleyin (target branch).
 
 Örneğin:
 ```batch
@@ -63,7 +63,7 @@ Failed
 ```
 
 ### Notlar
-- Script, GitLab API'sini kullanır ve kişisel erişim token'ınızı (access_token) gerektirir.
+- Script, GitLab API'sini kullanır ve kişisel erişim token'ınızı (`access_token`) gerektirir.
 - Script, CMD terminalinde çalıştırılmak üzere tasarlanmıştır.
 
 ### Lisans
