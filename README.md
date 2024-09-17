@@ -66,5 +66,5 @@ Failed
 - The script uses the GitLab API and requires your personal access token (`access_token`).
 - The script is designed to be run from a CMD terminal.
 
-License
+### License
 This project is licensed under the MIT License. For more information, refer to the `LICENSE` file.
